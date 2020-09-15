@@ -5,4 +5,8 @@ public class StringHelper {
     public static boolean isCertainLen(String s, int maxLen){
         return s.length()==maxLen;
     }
+    public static String returnEmptyString(){
+        return "";
+    }
+
 }
